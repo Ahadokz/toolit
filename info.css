@@ -1,0 +1,468 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Head section  */
+.head-search .icon {
+    display: none;
+}
+
+.head-sec {
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    /* position: fixed;
+    width: 1344px; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    background-color: orange;
+}
+
+.logo {
+    font-family: arimo;
+    margin-left: 50px;
+    font-family: roboto, sans-serif;
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+}
+
+.logo::after {
+    content: "It.";
+    color: rgb(0, 0, 0);
+}
+
+.nav-mid {
+    /* Heavy Jugar paisa wassool */
+    padding: 10px;
+    height: 38px;
+}
+
+.nav-mid a {
+    margin-top: 500px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    padding: 4px 5px;
+    color:white;
+    text-decoration: none;
+    margin-left: 35px;
+    border-radius: 2px;
+}
+
+.nav-mid a:hover {
+    transition: .5s;
+    background-color: orange;
+    color: black;
+}
+
+.head-search {
+    margin-right: 30px;
+}
+
+#theButton {
+    font-family: arimo;
+    background-color: transparent;
+    border: none;
+    padding: 3px 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+#theButton:hover {
+    transition: .5s;
+    color: black;
+    border: none;
+}
+
+.hide {
+    display: none;
+}
+
+#popup {
+    color: white;
+    border: 2px solid orange;
+    background-color: black;
+    font-family: arimo;
+    padding: 2px;
+}
+
+.show {
+    display: inline-block;
+}
+
+
+/* body ection after nav  */
+.sec1 {
+    background-image: url(cycle.jpg);
+    height: 70vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.head1{
+    padding-top: 100px;
+    font-family: arimo;
+    font-size: 10rem;
+    color: rgb(255, 255, 255);
+}
+
+.head1::after {
+    content: "It.";
+    color: orange;
+}
+
+.sec1content .head1 {
+    text-align: center;
+    font-family: arimo;
+    font-size: 9rem;
+}
+h2{
+    font-size: 2rem;
+    font-family: arimo;
+    text-align: center;
+}
+.headingtop{
+    margin-top: 25px;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.item-content p{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    justify-content: space-between;
+}
+.item-content{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100px;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    flex: 2;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.item {
+    display: flex;
+    margin: 0px 40px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.item img {
+    width: 400px;
+    height: 600px; /* Adjust the value as needed */
+    margin: 50px 0px;
+    height: auto;
+    object-fit: cover;
+    flex: 1;
+    margin-right: 20px;
+
+}
+
+
+/* footer starts from here  */
+.footer {
+    border: 2px solid black;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.images img {
+    height: 200px;
+}
+
+.footer .foot {
+    font-family: arimo;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.footlogo {
+    font-family: arimo;
+    color: white;
+    margin-top: 30px;
+    margin-left: 75px;
+    font-size: 3rem;
+}
+
+.footlogo::after {
+    content: "It";
+    color: orange;
+
+}
+
+.logoso {
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left a img {
+    height: 40px;
+    margin-top: 10px;
+}
+
+.logocon {
+    display: flex;
+}
+
+.logopara {
+    padding: 5px;
+    font-family: arimo;
+    margin-top: 12px;
+    color: white;
+    width: 25ch;
+}
+
+.mid {
+    margin-left: 100px;
+}
+
+.mid a {
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+}
+
+.endfooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navigation {
+    margin-top: 35px;
+    font-family: arimo;
+    color: white;
+}
+
+.right {
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+.email {
+
+    color: white;
+    font-family: arimo;
+}
+
+.emailinfo {
+    margin-top: 15px;
+    color: white;
+    font-size: 1.21rem;
+    width: 30ch;
+    font-family: arimo;
+}
+
+.right input {
+    padding-left: 10px;
+    font-family: arimo;
+    margin-top: 30px;
+    height: 40px;
+    width: 250px;
+}
+
+.send {
+    background-color: orange;
+    font-weight: 700;
+    border: 2px solid black;
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.send:hover {
+    border: 2px solid orange;
+    background-color: black;
+    color: orange;
+}
+
+.copy p{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: orange;
+    color: black;
+}
+
+/* Responsive desighn from here  */
+
+@media (max-width:1292px) {
+    .endfooter {
+        flex-direction: column;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .images {
+        margin: 50px 130px;
+    }
+
+}
+
+@media (max-width:992px) {
+    .head-search button{
+        display: none;
+
+    }
+    .images {
+        margin: 50px 10px;
+    }
+
+    .nav-mid a {
+        display: none;
+    }
+
+    .nav-mid.responsive{
+        background-color: black;
+        margin-top: 350px;
+        height: 280px;
+        margin-left:1px ;
+        width: 1500px;
+    }
+
+
+    .head-search a.icon {
+        color: orange;
+        background-color: black;
+        float: right;
+        display:block;
+        margin-left: 10px;
+        margin-top: 5px;
+        justify-content: end;
+        align-items: end;
+    }
+
+    .nav-mid.responsive {
+        position: relative;
+        margin-top: 320px;
+        justify-content: end;
+        align-items: end;
+        width: 100vw;
+        margin-left: -70px;
+    }
+
+    .head-search.responsive a.icon {
+        position: absolute;
+    }
+    .nav-mid.responsive a {
+        justify-content: center;
+        margin-top: 15px;
+        float: none;
+        display: flex;
+        margin-left: 0px;
+    } 
+}
+
+@media (max-width:850px){
+    .item{
+        display: flex;
+        flex-direction: column;
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+    .item-content{
+        width: 400px;
+    }
+    .item img{
+        margin-right: 1px;
+    }
+    .itemflex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .headingtop{
+        margin-left: 50px ;
+        margin-right: 50px ;
+    }
+}
+
+@media (max-width:700px){
+.flex{
+    flex-direction: column;
+}
+.endfooter{
+    align-items: center;
+}
+.footlogo{
+    justify-content: center;
+    text-align: center;
+    margin-left: 0px;
+}
+.logocon{
+    align-items: center;
+    text-align: center;
+    margin-left: -100px;
+}
+.mid{
+    margin-left: 0px;
+    text-align: center;
+}
+.right{
+    margin-left: 0px;
+    text-align: center;
+}
+.sec1content .head1{
+    font-size: 7rem;
+}
+}
+
+@media (max-width:450px){
+    h2{
+        font-size: 1.6rem;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .item img{
+        width: 250px;
+    }
+    .item-content{
+        width: 300px;
+    }
+    .item-content p{
+        text-align: center;
+        font-size: 1rem;
+        margin-left: 10px ;
+        margin-right:10px ;
+    }
+    .headingtop{
+        font-size: 1rem;
+    }
+    .sec1content .head1{
+        font-size: 4rem;
+    }
+    
+}

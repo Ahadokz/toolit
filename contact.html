@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>ToolIt</title>
+</head>
+
+<body>
+    <div class="head-sec">
+        <div class="navbar">
+            <span class="logo">Tool</span>
+            <div class="nav-mid" id="mynav-mid">
+                <a href="index.html">Home</a>
+                <a href="buyprod.html">Buy Products</a>
+                <a href="info.html">Information</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="contact.html">Contact Info</a>
+            </div>
+            <div class="head-search">
+                <button id="theButton" onclick="clickMe()">Search</button>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <input type="text" name="popup" id="popup" class="hide">
+            </div>
+        </div>
+    </div>
+
+    <div class="sec1">
+        <div class="sec1content">
+            <!-- <h1 class="head1">About</h1> -->
+        </div>
+    </div>
+
+    <div class="sec2">
+        <h1 class="sec2heading">Contact Us</h1>
+        <div class="sec2underline"></div>
+    </div>
+
+    <div class="sec3">
+        <h4 class="sec3heading">ToolIt strives to provide the best customer experience with every contact!</h4>
+
+        <p class="sec3para">Our mantra is to provide the best possible product and service to all of our fans. At Lone
+            Rider, you always speak to a human! <br>
+            From inquiring about product information to asking where your order is, or even simply to say hello, we are
+            here to help!</p>
+    </div>
+
+    <div class="sec4">
+        <h3>Contact Us:</h3>
+        <p class="sec4para">For support issues related to ours products, please look through our Frequently Asked
+            Questions and Tips & Tricks to see if your question has not been already answered. <br> If you don't find
+            your answer there, please contact us directly using this contact form.</p>
+    </div>
+
+    <form action="" class="form">
+        <div class="namal">
+            <div class="name">
+                <label for="">Name</label>
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inneremail">
+                <label for="">Email</label>
+                <input type="text" placeholder="Email">
+            </div>
+        </div>
+        <div class="msg">
+            <label for="">Message</label>
+            <textarea name="" id=""></textarea>
+        </div>
+        <button class="send">Send</button>
+    </form>
+
+    <div class="copy0">
+        <p>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+    </div>
+    <div class="footer">
+        <h1 class="foot">On Our Social Media</h1>
+        <div class="flex">
+            <div class="images">
+                <img src="trail.jpg" alt="">
+                <img src="bridge.jpg" alt="">
+                <img src="grass.jpg" alt="">
+                <img src="harley.jpg" alt="">
+            </div>
+            <div class="endfooter">
+                <div class="left">
+                    <h1 class="footlogo">Tool</h1>
+                    <div class="logocon">
+                        <div class="logoso">
+                            <a href=""><img src="fb.png" alt=""></a>
+                            <a href=""><img src="ig.png" alt=""></a>
+                            <a href=""><img class="twitter" src="twit.png" alt=""></a>
+                        </div>
+                        <p class="logopara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi distinctio,
+                            alias amet ullam inventore veniam quis dolore illum voluptatem natus! Lorem, ipsum dolor sit
+                            amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="mid">
+                    <h1 class="navigation">Navigation</h1>
+                    <a href="index.html">Home</a>
+                    <a href="aboutus.html">More About Us</a>
+                    <a href="buyprod.html">Buy Product</a>
+                    <a href="info.html">Product Info</a>
+                    <a href="contact.html">Contact Info</a>
+                </div>
+                <div class="mid">
+                    <h1 class="navigation">Production</h1>
+                    <a href="">Our Company Info</a>
+                    <a href="">About our Product</a>
+                    <a href="">Material</a>
+                    <a href="">Ranking</a>
+                    <a href="">Delivery</a>
+                </div>
+                <div class="right">
+                    <h1 class="email">Hear From Us</h1>
+                    <p class="emailinfo">You can get in touch with us by just giving us your email</p>
+                    <input class="" type="text" placeholder="Email">
+                    <button class="send">Send</button>
+                </div>
+            </div>
+        </div>
+        <ahad class="copy">
+            <p>The rights are reserverd by the company</p>
+        </ahad>
+    </div>
+    <script>
+        function clickMe() {
+            var text = document.getElementById("popup");
+            text.classList.toggle("hide");
+            text.classList.toggle("show");
+        }
+        function myFunction() {
+            var x = document.getElementById("mynav-mid");
+            if (x.className === "nav-mid") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-mid";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ToolIt</title>
+</head>
+
+<body>
+    <div class="head-sec">
+        <div class="navbar">
+            <span class="logo">Tool</span>
+            <div class="nav-mid" id="mynav-mid">
+                <a href="index.html">Home</a>
+                <a href="buyprod.html">Buy Products</a>
+                <a href="info.html">Information</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="contact.html">Contact Info</a>
+            </div>
+            <div class="head-search">
+                <button id="theButton" onclick="clickMe()">Search</button>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <input type="text" name="popup" id="popup" class="hide">
+            </div>
+        </div>
+    </div>
+
+    <div class="sec1">
+        <div class="sec1content">
+            <h1 class="head1">Tool</h1>
+        </div>
+    </div>
+
+    <div class="headbody">
+        <h1>Our Experience in Outdoor Adventure Gear is more than any other dealer out their. </h1>
+    </div>
+
+
+    <div class="sec3">
+        <div class="sec3content1">
+            <img class="bike" src="bike.jpg" alt="" loading="lazy">
+            <div class="bikecontent">
+                <h1 class="bikehead">Best Route, Next Time</h1>
+                <p class="bikepara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non minima similique
+                    voluptatem laborum libero tempore eius! Sit corporis dolores iste.</p>
+            </div>
+        </div>
+        <div class="sec3content2">
+            <div class="vancontent">
+                <h1 class="vanhead">Take Break, Better</h1>
+                <p class="vanpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non minima similique
+                    voluptatem laborum libero tempore eius! Sit corporis dolores iste.</p>
+            </div>
+            <img class="van" src="van.jpg" alt="" loading="lazy">
+        </div>
+        <div class="sec3content3">
+            <img class="bike" src="girl.jpg" alt="" loading="lazy">
+            <div class="bikecontent">
+                <h1 class="bikehead">Unforgetable Memories</h1>
+                <p class="bikepara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non minima similique
+                    voluptatem laborum libero tempore eius! Sit corporis dolores iste.</p>
+            </div>
+        </div>
+    </div>
+    <div class="sec4">
+        <h1 class="sec4head">Check Out Our Products</h1>
+        <div class="sec4img">
+            <a href="buyprod.html"><img src="gear.jpg" alt="" loading="lazy"> </a>
+            <a href="buyprod.html"><img src="blackorange shows.jpg" alt="" loading="lazy"> </a>
+            <a href="buyprod.html"><img src="cycle.jpg" alt="" loading="lazy"> </a>
+        </div>
+    </div>
+
+    <div class="sec5">
+        <h1 class="sec5head">Information About Our Products</h1>
+        <p>Want to know more about our products quality and material, check out blog.</p>
+    </div>
+
+    <div class="footer">
+        <h1 class="foot">On Our Social Media</h1>
+        <div class="flex">
+            <div class="images">
+                <img src="trail.jpg" alt="" loading="lazy">
+                <img src="bridge.jpg" alt="" loading="lazy">
+                <img src="grass.jpg" alt="" loading="lazy">
+                <img src="harley.jpg" alt="" loading="lazy">
+            </div>
+            <div class="endfooter">
+                <div class="left">
+                    <h1 class="footlogo">Tool</h1>
+                    <div class="logocon">
+                        <div class="logoso">
+                            <a href=""><img src="fb.png" alt=""></a>
+                            <a href=""><img src="ig.png" alt=""></a>
+                            <a href=""><img class="twitter" src="twit.png" alt=""></a>
+                        </div>
+                        <p class="logopara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi distinctio,
+                            alias amet ullam inventore veniam quis dolore illum voluptatem natus! Lorem, ipsum dolor sit
+                            amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="mid">
+                    <h1 class="navigation">Navigation</h1>
+                    <a href="">Home</a>
+                    <a href="">More About Us</a>
+                    <a href="">Buy Product</a>
+                    <a href="">Product Info</a>
+                    <a href="">Contact Info</a>
+                </div>
+                <div class="mid">
+                    <h1 class="navigation">Production</h1>
+                    <a href="">Our Company Info</a>
+                    <a href="">About our Product</a>
+                    <a href="">Material</a>
+                    <a href="">Ranking</a>
+                    <a href="">Delivery</a>
+                </div>
+                <div class="right">
+                    <h1 class="email">Hear From Us</h1>
+                    <p class="emailinfo">You can get in touch with us by just giving us your email</p>
+                    <input class="" type="text" placeholder="Email">
+                    <button class="send">Send</button>
+                </div>
+            </div>
+        </div>
+        <ahad class="copy">
+            <p>The rights are reserverd by the company</p>
+        </ahad>
+    </div>
+    <script>
+        function clickMe() {
+            var text = document.getElementById("popup");
+            text.classList.toggle("hide");
+            text.classList.toggle("show");
+        }
+        function myFunction() {
+            var x = document.getElementById("mynav-mid");
+            if (x.className === "nav-mid") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-mid";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

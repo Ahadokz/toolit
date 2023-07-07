@@ -1,0 +1,649 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+/* Head section  */
+.head-search .icon {
+    display: none;
+}
+
+.head-sec {
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+/* no width with this website correspondng ad of the year and the local website  */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    background-color: orange;
+}
+
+.logo {
+    font-family: arimo;
+    margin-left: 50px;
+    font-family: roboto, sans-serif;
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+}
+
+.logo::after {
+    content: "It.";
+    color: rgb(0, 0, 0);
+}
+
+.nav-mid {
+    /* Heavy Jugar paisa wassool */
+    padding: 10px;
+    height: 38px;
+}
+
+.nav-mid a {
+    margin-top: 500px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    padding: 4px 5px;
+    color:white;
+    text-decoration: none;
+    margin-left: 35px;
+    border-radius: 2px;
+}
+
+.nav-mid a:hover {
+    transition: .5s;
+    background-color: orange;
+    color: black;
+}
+
+.head-search {
+    margin-right: 30px;
+}
+
+#theButton {
+    font-family: arimo;
+    background-color: transparent;
+    border: none;
+    padding: 3px 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+#theButton:hover {
+    transition: .5s;
+    color: black;
+    border: none;
+}
+
+.hide {
+    display: none;
+}
+
+#popup {
+    color: white;
+    border: 2px solid orange;
+    background-color: black;
+    font-family: arimo;
+    padding: 2px;
+}
+
+.show {
+    display: inline-block;
+}
+
+/* Body Sections  */
+.sec1 {
+    background-image: url(Pic1.jpg);
+    height: 80vh;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+}
+
+.sec1 .sec1content {
+    display: flex;
+    margin: auto;
+}
+
+.head1 {
+    font-size: 9rem;
+    /* margin-top: 150px; */
+    /* margin-left: 500px; */
+    font-family: arimo;
+    color: rgb(255, 166, 0);
+}
+
+.head1::after {
+    content: "It.";
+    color: #ffffff;
+}
+
+.para1 {
+    padding: 15px;
+    margin-right: 100px;
+    background-color: rgba(0, 0, 0, 0.712);
+    box-shadow: black -10px 10px 20px;
+    margin-left: 50px;
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.para1::before {
+    content: "Quality Material:";
+    font-size: 2.5rem;
+    font-family: sans-serif;
+
+}
+
+.headbody h1 {
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.sec3 {
+    margin-top: 100px;
+}
+
+.sec3content1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bike {
+    margin-top: 80px;
+    height: 600px;
+}
+
+.bikecontent {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bikehead {
+    font-family: roboto;
+    color: black;
+    margin-top: 80px;
+}
+
+.bikepara {
+    font-family: sans-serif;
+    color: black;
+    width: 500px;
+    margin-top: 25px;
+}
+
+.sec3content2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.van {
+    margin-top: 80px;
+    height: 600px;
+    width: 450px;
+}
+
+.vancontent {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.vanhead {
+    font-family: roboto;
+    color: black;
+    margin-top: 80px;
+}
+
+.vanpara {
+    font-family: sans-serif;
+    color: black;
+    width: 500px;
+    margin-top: 25px;
+}
+
+.sec3content3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec4 {
+    font-family: arimo;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec4head {
+    margin-bottom: 30px;
+}
+
+.sec4img img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    background: black;
+}
+
+.sec4img a img:hover {
+    opacity: 0.5;
+    color: black;
+}
+
+.sec5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec5 p {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sec5head {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: arimo;
+}
+
+
+/* footer starts from here  */
+.footer {
+    border: 2px solid black;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.images img {
+    height: 200px;
+}
+
+.footer .foot {
+    font-family: arimo;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.footlogo {
+    font-family: arimo;
+    color: white;
+    margin-top: 30px;
+    margin-left: 75px;
+    font-size: 3rem;
+}
+
+.footlogo::after {
+    content: "It";
+    color: orange;
+
+}
+
+.logoso {
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left a img {
+    height: 40px;
+    margin-top: 10px;
+}
+
+.logocon {
+    display: flex;
+}
+
+.logopara {
+    padding: 5px;
+    font-family: arimo;
+    margin-top: 12px;
+    color: white;
+    width: 25ch;
+}
+
+.mid {
+    margin-left: 100px;
+}
+
+.mid a {
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+}
+
+.endfooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navigation {
+    margin-top: 35px;
+    font-family: arimo;
+    color: white;
+}
+
+.right {
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+.email {
+
+    color: white;
+    font-family: arimo;
+}
+
+.emailinfo {
+    margin-top: 15px;
+    color: white;
+    font-size: 1.21rem;
+    width: 30ch;
+    font-family: arimo;
+}
+
+.right input {
+    padding-left: 10px;
+    font-family: arimo;
+    margin-top: 30px;
+    height: 40px;
+    width: 250px;
+}
+
+.send {
+    background-color: orange;
+    font-weight: 700;
+    border: 2px solid black;
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.send:hover {
+    border: 2px solid orange;
+    background-color: black;
+    color: orange;
+}
+.copy p{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: orange;
+    color: black;
+}
+
+/* Responsive desighn from here  */
+
+@media (max-width:1292px) {
+    .endfooter {
+        flex-direction: column;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .images {
+        margin: 50px 130px;
+    }
+    .right{
+        margin-bottom: 50px;
+    }
+
+    .sec4img img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .bike {
+        height: 400px;
+        width: 270px;
+    }
+
+    .van {
+        height: 400px;
+        object-fit: cover;
+        width: 270px;
+    }
+}
+
+@media (max-width:992px) {
+    .head-search button{
+        display: none;
+
+    }
+    .images {
+        margin: 50px 10px;
+    }
+
+    .nav-mid a {
+        display: none;
+    }
+
+    .nav-mid.responsive{
+        background-color: black;
+        margin-top: 350px;
+        height: 280px;
+        margin-left:1px ;
+        width: 1500px;
+    }
+
+
+    .head-search a.icon {
+        color: orange;
+        background-color: black;
+        float: right;
+        display:block;
+        margin-left: 10px;
+        margin-top: 5px;
+        justify-content: end;
+        align-items: end;
+    }
+
+    .nav-mid.responsive {
+        position: relative;
+        margin-top: 320px;
+        justify-content: end;
+        align-items: end;
+        width: 100vw;
+        margin-left: -70px;
+    }
+
+    .head-search.responsive a.icon {
+        position: absolute;
+    }
+    .nav-mid.responsive a {
+        justify-content: center;
+        margin-top: 15px;
+        float: none;
+        display: flex;
+        margin-left: 0px;
+    } 
+}
+
+
+@media (max-width:800px){
+    .sec3content1{
+        margin: 0px 20px;
+    }
+    .sec3content2{
+        margin: 0px 20px;
+    }
+    .sec3content3{
+        margin: 0px 20px;
+    }
+   
+    .bikepara{
+        width: 40ch;
+    }
+    .vanpara{
+        width: 40ch;
+    }
+    .sec4img{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec4img img{
+        width: 400px;
+    }
+}
+@media (max-width:700px){
+.sec3content1{
+    margin-top:-100px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec3content2{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+.sec3content3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.bike{
+    width: 400px;
+    object-fit: cover;
+}
+.van{
+    width: 400px;
+    object-fit: cover;
+}
+.bikehead{
+    text-align: center;
+}
+.bikepara{
+    text-align: center;
+}
+.vanhead{
+    text-align: center;
+}
+.vanpara{
+    text-align: center;
+}
+.flex{
+    flex-direction: column;
+}
+.endfooter{
+    align-items: center;
+}
+.footlogo{
+    justify-content: center;
+    text-align: center;
+    margin-left: 0px;
+}
+.logocon{
+    align-items: center;
+    text-align: center;
+    margin-left: -100px;
+}
+.mid{
+    margin-left: 0px;
+    text-align: center;
+}
+.right{
+    margin-left: 0px;
+    text-align: center;
+}
+}
+
+@media (max-width:720px){
+    .sec5head{
+        margin: 20px 10px;
+        font-size:2.5rem;
+    }
+    .headbody h1 {
+        margin: 10px 50px;
+    }
+    .sec5 p{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+@media (max-width:570px){
+    .head1{
+        font-size: 6rem;
+    }
+}
+
+@media (max-width:470px){
+    .bike{
+        width: 300px;
+    }
+    .van{
+        width: 300px;
+    }
+    .sec4img img{
+        width: 300px;
+    }
+    .sec4head{
+        font-size: 1.7rem;
+    }
+    .sec5head{
+        font-size: 1.7rem;
+    }
+    .bikehead{
+        font-size: 1.7rem;
+    }
+    .vanhead{
+        font-size: 1.7rem;
+    }
+    .bikepara{
+        width: 300px;
+    }
+    .vanpara{
+        width: 300px;
+    }
+}
+
+@media (max-width:350px){
+    .bike{
+        width: 250px;
+    }
+    .van{
+        width: 250px;
+    }
+    .sec4img img{
+        width: 250px;
+    }
+
+}
